@@ -77,8 +77,8 @@ The final model is a tuned Logistic Regression (`C=0.001`, `liblinear`) trained 
 **Requirements:** Docker Desktop with about 6 GB of memory available to Docker.
 
 ```bash
-git clone https://github.com/<your-username>/mlops-project.git
-cd mlops-project
+git clone https://github.com/aneeshchandra9-git/churn-prediction-mlops.git
+cd churn-prediction-mlops
 
 # Start the app stack (Airflow excluded to save memory)
 docker compose up -d api prometheus grafana ollama streamlit
