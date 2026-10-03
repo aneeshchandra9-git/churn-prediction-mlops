@@ -133,7 +133,8 @@ mlops-project/
 ├── Dockerfile.streamlit            # Web app image
 ├── docker-compose.yml
 ├── requirements-*.txt              # Per-service dependencies
-└── WEEK2–8_SUMMARY.md              # Detailed weekly write-ups
+  ├── WEEK4/6/7/8_SUMMARY.md          # Detailed weekly write-ups (Week 5: app/WEEK5_SUMMARY.md)
+  └── docs/early-planning/            # Original Week 1 planning documents
 ```
 
 ---
@@ -161,4 +162,4 @@ mlops-project/
 
 ## Weekly write-ups
 
-Each week has a detailed summary covering concepts, decisions, bugs and fixes: `WEEK2_SUMMARY.md` to `WEEK8_SUMMARY.md`.
+  Detailed summaries covering concepts, decisions, bugs and fixes: `app/WEEK5_SUMMARY.md`, `WEEK4_SUMMARY.md`, `WEEK6_SUMMARY.md`, `WEEK7_SUMMARY.md` and `WEEK8_SUMMARY.md`. The original Week 1 planning documents are in `docs/early-planning/`.
