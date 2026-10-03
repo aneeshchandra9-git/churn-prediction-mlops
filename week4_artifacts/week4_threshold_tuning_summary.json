@@ -1,0 +1,12 @@
+{
+  "week": 4,
+  "task": "threshold_tuning",
+  "optimal_threshold": 0.1,
+  "metrics_at_optimal_threshold": {
+    "precision": 0.2718239886444287,
+    "recall": 1.0,
+    "f1": 0.42745535714285715
+  },
+  "roc_auc": 0.45497228711465354,
+  "interpretation": "Use threshold 0.10: catches 100.0% of churners with 27.2% precision"
+}

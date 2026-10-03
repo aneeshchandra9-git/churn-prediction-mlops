@@ -1,0 +1,89 @@
+# Core Data Processing & ML
+pandas==2.0.3
+numpy==1.24.3
+scikit-learn==1.3.0
+scipy==1.11.1
+
+# Gradient Boosting & Advanced Models
+xgboost==2.0.0
+lightgbm==4.0.0
+catboost==1.2
+
+# Deep Learning (Optional - uncomment if needed)
+# tensorflow==2.13.0
+# torch==2.0.1
+
+# Jupyter & Notebooks
+jupyter==1.0.0
+jupyterlab==4.0.4
+jupyter-contrib-nbextensions==0.7.0
+ipykernel==6.25.1
+
+# Experiment Tracking & Model Registry
+mlflow==2.7.0
+wandb==0.15.8
+
+# Data Validation & Quality
+great-expectations==0.18.6
+pandera==0.17.0
+
+# Version Control for Data
+dvc==3.30.0
+
+# API & Web Framework
+fastapi==0.103.0
+uvicorn==0.23.2
+pydantic==2.3.0
+
+# Orchestration
+apache-airflow==2.7.0
+apache-airflow-providers-docker==3.8.0
+
+# Testing
+pytest==7.4.0
+pytest-cov==4.1.0
+pytest-mock==3.11.1
+hypothesis==6.82.0
+faker==19.6.0
+
+# Monitoring & Logging
+prometheus-client==0.17.1
+python-json-logger==2.0.7
+
+# Configuration Management
+python-dotenv==1.0.0
+pyyaml==6.0.1
+pydantic-settings==2.0.3
+
+# Data Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.16.1
+
+# Code Quality & Formatting
+black==23.7.0
+flake8==6.0.0
+pylint==2.17.5
+isort==5.12.0
+mypy==1.4.1
+
+# Development Tools
+ipython==8.14.0
+notebook==7.0.2
+rich==13.5.2
+tqdm==4.66.1
+
+# Database Connectors
+psycopg2-binary==2.9.7
+sqlalchemy==2.0.20
+pymongo==4.4.1
+
+# Cloud & Storage (Optional - uncomment as needed)
+# boto3==1.28.0  # AWS
+# google-cloud-storage==2.10.0  # GCP
+# azure-storage-blob==12.17.0  # Azure
+
+# Additional Utilities
+requests==2.31.0
+click==8.1.7
+loguru==0.7.1

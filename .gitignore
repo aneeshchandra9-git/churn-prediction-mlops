@@ -1,0 +1,42 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ---------- Virtual environments and secrets ----------
+venv/
+.venv/
+env/
+.env
+.env.local
+
+# ---------- IDE / OS ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints
+
+# ---------- MLflow (local experiment history) ----------
+mlflow.db
+mlruns/
+mlflow_artifacts/
+
+# ---------- Logs ----------
+logs/
+*.log
+
+# ---------- Data: skip generated CSVs, keep the raw dataset ----------
+*.csv
+!/data/raw/churn_data.csv
+
+# ---------- Models: keep only what the API serves ----------
+/models/*
+!/models/.gitkeep
+!/models/logistic_regression_tuned.pkl
+!/models/scaler.pkl
+!/models/label_encoders.pkl
